@@ -1,0 +1,104 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.title-sub-txt{
+  font-size:18px;
+}
+
+.desc {
+  color: sandybrown
+}
+.block {
+  padding: 10px;
+}
+
+.test {
+  color:red;
+}
+
+.font-weight {
+  font-weight: 800;
+}
+
+.font-style {
+  font-style: italic;
+}
+
+.letter-spacing{
+  letter-spacing: ;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.mtb-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mtb-60{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ts-24 {
+  font-size: 24px;
+}
+
+.grey {
+  color: grey;
+}
+
+.fw-normal{
+  font-weight: normal;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.fs-italic{
+  font-style: italic;
+}
+
+.lsp {
+  letter-spacing: .3em;
+}
+
+.lsm {
+  letter-spacing: -.06em;
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.td-underline {
+  text-decoration: underline;
+}
+
+.td-line-through {
+  text-decoration: line-through;
+}
+
+.td-overline {
+  text-decoration: overline;
+}
+
+.tt-none {
+  text-transform: none;
+}
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+
+.tt-lowercase {
+  text-transform: lowercase;
+}
+
+.tt-capitalize {
+  text-transform: capitalize;
+}
