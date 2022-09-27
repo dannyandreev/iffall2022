@@ -1,0 +1,65 @@
+header {
+  margin-bottom: 3rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.see-all {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+section h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.cast li {
+  width: 25%;
+}
+
+.shows > li {
+  border: 1px solid black;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.selected a:visited {
+  color: black;
+}
+
+.cast div {
+  font-size: 0.8rem;
+}
+
+a > div:first-of-type{
+  font-weight: bold;
+}
+
+a > div:last-of-type{
+  font-style: italic;
+}
+
+.seasons ul > li:last-of-type::after {
+  content: '*';
+}
+
+#game-of-thrones .seasons ul::after {
+  display: block;
+  content: "* Final Season";
+  font-size: 0.7rem;
+  color: #999;
+}
