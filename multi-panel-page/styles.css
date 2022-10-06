@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  min-width: 800px;
+  width:50%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-section {
+  background-image: url(overlook-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .7;
+  height: 480px;
+
+}
+
+.title {
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: white
+}
+
+.subheading {
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: white
+}
+
+.text-block-section {
+  background-color: #0a253a;
+  height: 720px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.text-block {
+  font-weight: 400;
+  color: white
+}
+
+.image-in-text {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid white;
+}
+
+.image-in-text-box {
+  float: right;
+  clear: right;
+  margin: 0 0 24px 24px;
+}
+
+.section-title-light {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.gallery-section {
+  background-color: #f0f0f0;
+  color: #494945;
+  height: 690px;
+}
+
+.gallery-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery-item {
+  display: flex;
+  width: 45%;
+}
+
+.gallery-item-text-box {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.gallery-image-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 30px;
+  row-gap: 20px;
+  min-width: 900px;
+}
+
+.red-section {
+  background-color: #bc0213;
+  height: 410px;
+}
+
+.text-block-bold{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.red-section .container {
+  min-width: 650px;
+  width: 50%;
+}
+
+.footer-section {
+  background-color: #333333;
+  height: 104px;
+}
+
+.copy {
+  letter-spacing: -.01rem;
+  color: white;
+  margin-left: 30px;
+}
+
+.footer-last{
+  height: 30px;
+  background-image: url(overlook-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: .7;
+}
