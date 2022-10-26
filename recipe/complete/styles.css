@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 700;
+  width: 60%;
+}
+
+.title-section{
+  height: 200px;
+  background-image: url('shakshuka-handle.webp');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section {
+  width: 90%;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.title-container{
+  background-color: #efcf55;
+}
+
+.title-image {
+  object-fit: fill;
+  height: 100%;
+  position: absolute;
+}
+
+.title-background-image {
+  object-fit: cover;
+  height: 200px;
+}
+
+.instructions-container {
+  background-color: #fcf4d9;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+.tomatoe-icon {
+  height: 48px;
+  width: 48px;
+  background-image: url('icons8-tomatoes-96.png');
+  background-color: #efcf55;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 7px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+}
+
+.instruction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+  padding: 5px 24px 5px 24px;
+  background-color: #fffefc;
+  border-radius: 24px;
+}
+
+.column {
+  width: 80%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 24px 0 24px 0;
+}
+
+.instruction-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.instruction-desc {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.instruction-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction-number {
+  font-size: 48px;
+  font-weight: 700;
+  margin-right: 12px;
+}
