@@ -38,6 +38,7 @@ body {
 
 .title-container{
   background-color: #efcf55;
+
 }
 
 .title-image {
@@ -53,23 +54,73 @@ body {
 
 .instructions-container {
   background-color: #fcf4d9;
+  width: 70%;
+
 }
 .icon-container {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
 }
-.tomatoe-icon {
+
+.icon {
   height: 48px;
   width: 48px;
-  background-image: url('icons8-tomatoes-96.png');
   background-color: #efcf55;
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: 7px;
   border-radius: 50%;
-  margin: 0 10px 0 10px;
+  margin-right: 20px;
   padding: 5px;
+}
+
+.tomatoe {
+  background-image: url('tomatoes.png');
+}
+
+.knife {
+  background-image: url('chef-knife.png');
+}
+
+.pan {
+  background-image: url('pan.png');
+}
+
+.cutting-board {
+  background-image: url('cutting-board.png');
+}
+
+.onion {
+  background-image: url('onion.png');
+}
+
+.parsley {
+  background-image: url('parsley.png');
+}
+
+.spatula {
+  background-image: url('spatula.png');
+}
+
+.egg {
+  background-image: url('eggs.png');
+}
+
+.garlic {
+  background-image: url('garlic.png');
+}
+
+.coriander {
+  background-image: url('coriander.png');
+}
+
+.olive-oil {
+  background-image: url('olive-oil.png');
+}
+
+.salt {
+  background-image: url('salt-shaker.png');
 }
 
 .instruction {
@@ -77,9 +128,15 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 5px 0 5px 0;
-  padding: 5px 24px 5px 24px;
+  padding: 5px 4px 5px 24px;
   background-color: #fffefc;
   border-radius: 24px;
+  width: 90%;
+}
+
+.instruction-section{
+  align-items: center;
+  justify-content: center;
 }
 
 .column {
@@ -104,8 +161,9 @@ body {
 
 .instruction-box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin-right: 24px;
 }
 
 .instruction-number {
@@ -117,9 +175,104 @@ body {
 .tool {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 5px 0 5px 0;
-  padding: 5px 24px 5px 24px;
+  justify-content: left;
+
   background-color: #fffefc;
   border-radius: 24px;
+  margin-bottom: 12px;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: center;
+
+}
+
+.tools-and-utensiles {
+
+}
+
+.tool-and-ingredients {
+  width: 30%;
+  padding: 0 5% 0 5%
+}
+
+@media only screen and (max-width: 640px) {
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    width: 50%;
+  }
+
+  .title-section{
+    height: 140px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .instruction {
+    padding: 5px 12px 5px 24px;
+  }
+
+  .instruction-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .instruction-desc {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .instruction-number {
+    font-size: 30px;
+  }
+
+  .icon {
+    height: 36px;
+    width: 36px;
+    background-color: #efcf55;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 7px;
+    border-radius: 50%;
+    margin: 0 5px 0 5px;
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .side-by-side {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .instructions-container {
+    width: 100%;
+    padding-bottom: 24px;
+
+  }
+
+  .tool-and-ingredients {
+    display: flex;
+    width: 50%;
+  }
+
+  .tools-and-utensiles{
+    margin-right: 24px;
+    margin-left: 100px;
+  }
+
+  .ingredients {
+    margin-left: 24px;
+  }
 }
