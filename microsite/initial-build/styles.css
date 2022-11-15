@@ -1,0 +1,25 @@
+.title-section {
+  background-image: url("myimmortal1.webp");
+  height: 600px;
+  background-size: cover;
+  background-repeat: none;
+}
+
+body{
+  display: flex;
+}
+
+.navbar {
+  flex: 1;
+
+ height:720px
+}
+
+.navicon {
+
+  background-image: url("myimmortalbackground1.jpg");
+}
+
+.column {
+  flex: 1;
+}
