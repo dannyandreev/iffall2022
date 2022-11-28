@@ -1,0 +1,165 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title-banner{
+  padding-left: 20px;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 0), #e26fff);
+  display: flex;
+  align-items: center;
+}
+
+.title-banner-container{
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(images/myimmortalbackground1.jpg);
+}
+
+.navbar-container{
+  width: 10%;
+  min-width: 100px;
+
+  height:100%;
+  background-image: url(images/myimmortalbackground1.jpg);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#e26fff, #e26fff91);
+}
+
+
+.navbar-item {
+  margin: 0 0 20px 0;
+  display: block;
+  width: 100%;
+
+  background-color: #5e226d6d;
+  border: none;
+  padding: 15px 0 15px 0;
+  text-align: center;
+
+  display: inline-block;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-container{
+    width: 100%;
+    min-width: 0;
+    height: 45px;
+  }
+
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#e26fff, #e26fff91);
+  }
+
+  .navbar-item{
+    margin: 0 0 20px 0;
+    display: block;
+    width: 15%;
+    min-width: 60px;
+
+    background-color: #5e226d6d;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .content-container {
+    float: none;
+    margin-left: 0 !important;
+  }
+
+  .content{
+    padding-top: 125px !important;
+  }
+}
+
+
+
+
+
+.navbar-item:hover{
+  background-color: #3f0e4b;
+}
+
+.content-container{
+
+  height: 100%;
+  margin-left: max(10%, 100px);
+}
+
+.content{
+  padding-top: 80px;
+  float: right;
+  width: 100%;
+  height: 100%;
+  background-color: #444;
+}
+
+img{
+  width: 100%;
+}
+
+.home{
+  display: block;
+  height: 100%;
+  background-image: url(images/myimmortal1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.content{
+  display:none
+}
+
+#home{
+  display: block;
+}
